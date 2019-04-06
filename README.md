@@ -8,7 +8,7 @@
 
 * libstdc++v3 bits/stl\_iterator.h 有 inserter back\_inserter 等的实现
 
-* unary\_function 之类的辅助类在 C++11 中已经被标记为过期
+* unary\_function 之类的辅助类在 C++11 中已经被标记为过期，已经在 C++17 中移除
     * 代码在 libstdc++v3 bits/stl\_function.h
     * 传给 for\_each 这类算法的 functor 已经不用继承自 unary\_function
 
@@ -20,3 +20,6 @@
 * Effective STL item 18
     * vector&lt;bool&gt; 是一个特化版本的 vector，它并不是存储了 bool 类型的数组
     * 示例代码：bool\_vector.cpp
+
+* Effective STL item 28：正确理解 reverse\_iterator 的 base() 成员函数所产生的 iterator 的用法
+    * 示例代码：reverse\_iterator\_to\_iterator.cpp
