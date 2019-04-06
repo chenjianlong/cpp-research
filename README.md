@@ -16,3 +16,7 @@
     * C++ 的标准说，STL 的实现可以假定所有属于同一种类型的 allocator 对象都是等价的，并且互相比较的结果总是相等的
     * Allocator&lt;T&gt; 只能用于分配 T 类型的内存
     * 对于 list 和 map 等基于节点的容器，假设 list 的节点是 ListNode，这个节点的内存分配器是通过 Allocator&lt;T&gt;::rebind&lt;ListNode&gt; 获得
+
+* Effective STL item 18
+    * vector&lt;bool&gt; 是一个特化版本的 vector，它并不是存储了 bool 类型的数组
+    * 示例代码：bool\_vector.cpp
