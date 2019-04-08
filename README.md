@@ -10,7 +10,6 @@
 
 * unary\_function 之类的辅助类在 C++11 中已经被标记为过期，已经在 C++17 中移除
     * 代码在 libstdc++v3 bits/stl\_function.h
-    * 传给 for\_each 这类算法的 functor 已经不用继承自 unary\_function
 
 * Effective STL item 10
     * C++ 的标准说，STL 的实现可以假定所有属于同一种类型的 allocator 对象都是等价的，并且互相比较的结果总是相等的
