@@ -1,5 +1,10 @@
 ## 摘要
 
+* [Effective Modern C++ item 3](decltype_auto)
+* [Effective Modern C++ item 6](auto_with_proxy)
+* [Effective Modern C++ item 7](parenthesis_and_braces_construct)
+* [Effective Modern C++ item 8](prefer_nullptr)
+
 * More Effective C++ item 33
     * pure virtual destructor 必须有实现
     * 将函数声明为纯虚函数，并非暗示它没有实现码，而是意味着：
