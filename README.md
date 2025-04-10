@@ -1,5 +1,7 @@
 ## 摘要
 
+* [enable_if 使用思考](enable_if_test)
+* [auto_ptr 复制后原指针为空，unique_ptr 不允许复制，支持移动](copy_auto_ptr)
 * [Effective Modern C++ item 3](decltype_auto)
 * [Effective Modern C++ item 6](auto_with_proxy)
 * [Effective Modern C++ item 7](parenthesis_and_braces_construct)
