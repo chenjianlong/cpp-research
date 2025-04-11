@@ -1,5 +1,6 @@
 ## 摘要
 
+* [Effective Modern C++ item 22 pImpl idiom](pimpl_idiom)
 * [enable_if 使用思考](enable_if_test)
 * [auto_ptr 复制后原指针为空，unique_ptr 不允许复制，支持移动](copy_auto_ptr)
 * [Effective Modern C++ item 3](decltype_auto)
